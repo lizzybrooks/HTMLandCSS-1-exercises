@@ -23,6 +23,7 @@ div#mondrian-solution-outer {
 }
 
 div#mondrian-solution {
+  margin-top: 32px;
   width: 400px;
   height: 400px;
   position: absolute;
