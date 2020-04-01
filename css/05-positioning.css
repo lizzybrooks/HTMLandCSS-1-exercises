@@ -1,0 +1,33 @@
+/* css/0-positioning.css */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  /* display: inline-block; */
+}
+
+.first-div {
+  color: #bbbbbb;
+  background-color: #000000;
+  width: 40vw;
+  height: 40vh;
+}
+
+.inner-div {
+  position: relative;
+  color: #333333;
+  background-color: #e374cd;
+  width: 40%;
+  height: 40%;
+  left: 60%;
+}
+
+.second-div {
+  position: relative;
+  color: #cccccc;
+  background-color: #354dc4;
+  width: 40vw;
+  height: 40vh;
+}
