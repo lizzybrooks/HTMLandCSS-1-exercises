@@ -1,4 +1,4 @@
-/* css/0-positioning.css */
+/* css/0-positioning.css *//* css/0-positioning.css */
 
 * {
   margin: 0;
@@ -9,6 +9,7 @@ div {
 }
 
 .first-div {
+  position: relative;
   color: #bbbbbb;
   background-color: #000000;
   width: 40vw;
@@ -16,7 +17,7 @@ div {
 }
 
 .inner-div {
-  position: relative;
+  position: absolute;
   color: #333333;
   background-color: #e374cd;
   width: 40%;
