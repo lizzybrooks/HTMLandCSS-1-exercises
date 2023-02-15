@@ -1,0 +1,17 @@
+/* 06-mondrian.css */
+
+
+.mondrian {
+    background-color: rgb(118, 75, 33);
+    width: 400px;
+    height: 400px;
+    left:500px;
+    top: 25%;
+    position: absolute;
+}
+
+.one_block {
+    background-color: rgb(118, 75, 33);
+    position:relative;
+}
+/* Put your CSS here */
