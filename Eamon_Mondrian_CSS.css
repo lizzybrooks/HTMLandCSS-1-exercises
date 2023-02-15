@@ -1,0 +1,35 @@
+/* css/Eamon_Mondrian_CSS.css */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  div {
+    /* display: inline-block; */
+  }
+  
+  .first-div {
+    position: relative;
+    color: #964949;
+    background-color: #565656;
+    width: 40vw;
+    height: 40vh;
+  }
+  
+  .inner-div {
+    position: absolute;
+    color: #ac17d9;
+    background-color: #b3b0b2;
+    width: 40%;
+    height: 40%;
+    left: 60%;
+  }
+  
+  .second-div {
+    position: relative;
+    color: #283600;
+    background-color: #bbff00;
+    width: 40vw;
+    height: 40vh;
+  }
+  
