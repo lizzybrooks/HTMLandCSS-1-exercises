@@ -1,0 +1,56 @@
+<!-- /exercises/06-ode-to-mondrian-solution.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="GeorgeMondrian.css">
+  </head>
+  <img src="https://cdn.shopify.com/s/files/1/2059/7683/products/Venom_35_Kael_Ngu_Slam_Dunk_Variant_Virgin.jpg?v=1619804596&width=1445" width="300" 
+  height="88">
+  <body>
+    <div</div>
+    <!-- Note that this is only one way to do this! :) -->
+    <div id="mondrian-solution">
+      <div id="top-left-col">
+        <div class="white-box upper"></div>
+        <div class="white-box">
+          <iframe width="295" height="300" src="https://www.youtube.com/embed/RvPxo7ZzNI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div id="top-right-col">
+  
+          <video autoplay="true" id="videoElement">
+          
+          </video>
+        
+      </div>
+      <div id="bottom-row">
+        <div id="bottom-left-box">
+      
+        </div>
+        <div id="bottom-right-box">
+          <div id="bottom-right-narrow">
+            <div id="bottom-right-narrow-top-box"></div>
+            <div id="bottom-right-narrow-bottom-box"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+
+
+
+var video = document.querySelector("#videoElement");
+
+if (navigator.mediaDevices.getUserMedia) {
+  navigator.mediaDevices.getUserMedia({ video: true })
+    .then(function (stream) {
+      video.srcObject = stream;
+    })
+    .catch(function (err0r) {
+      console.log("Something went wrong!");
+    });
+} 
+</script>
