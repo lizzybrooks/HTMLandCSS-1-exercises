@@ -1,0 +1,102 @@
+/* Mondrian */
+body {
+  background: #ad4e4e5d;
+  margin: 0px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+div#mondrian-title {
+  font-family: "Times New Roman", sans-serif;
+	position: absolute;
+	text-align: right;
+	width: 100%;
+  top: 25%;
+	font-weight: 300;
+	font-size: 40px;
+}
+
+div#mondrian-solution-outer {
+  position: relative;
+}
+
+div#mondrian-solution {
+  margin-top: 32px;
+  width: 400px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div#top-left-col {
+  float: left;
+  width: 200px;
+  height: 300px;
+  border-right: 6px solid rgb(255, 255, 255);
+}
+
+div.white-box {
+  background: rgb(2, 255, 238);
+  height: 50%;
+}
+
+div.white-box.upper {
+  border-bottom: 24px solid rgb(255, 255, 255);
+}
+
+div#top-right-col {
+  width: 300px;
+  height: 600px;
+  float: right;
+  background: rgb(0, 255, 247);
+  border-left: 6px solid rgb(255, 255, 255);
+}
+
+div#bottom-triangle {
+  width: 100%;
+  height: 100px;
+  float: left;
+  border-top: 12px solid white;
+}
+
+div#bottom-left-box {
+  float: left;
+  width: 100px;
+  height: 100%;
+  background: rgb(0, 255, 234);
+  border-right: 6px solid white;
+}
+
+div#bottom-right-box {
+  width: 300px;
+  height: 300%;
+  float: right;
+  background: rgb(0, 255, 229);
+  border-left: 6px solid white;
+}
+
+div#bottom-right-narrow {
+  width: 40px;
+  height: 100%;
+  float: right;
+  border-left: 12px solid white;
+  background: rgb(0, 255, 204);
+}
+
+div#bottom-right-narrow-top-box {
+  width: 100%;
+  height: 75%;
+  background: rgb(0, 255, 162);
+  border-bottom: 12px solid white;
+}
+
+div#bottom-right-narrow-bottom-box {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 255, 187);
+  border-top: 12px solid rgb(255, 255, 255);
+}
