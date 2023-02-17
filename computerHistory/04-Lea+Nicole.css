@@ -1,0 +1,43 @@
+/* css/04-style.css */
+body {
+  background-color: #d5d6da; 
+}
+
+.my-custom-paragraph {
+  color: #11134c;
+  font-size: 20px;
+  font-family: monospace;
+  max-width: 70%;
+  right: 13%;
+  position:absolute;
+  top: 64%;
+  line-height: 40px;
+}
+
+h1 {
+  color: #11134c;
+  font-size: 40px;
+  font-family: monospace;
+  max-width: 70%;
+  right: 30%;
+  position:absolute;
+  line-height: 40px;
+}
+h2 {
+  color: #11134c;
+  font-size: 18px;
+  font-family: monospace;
+  font-style: italic;
+  max-width: 70%;
+ top: 8%;
+  right: 30%;
+  position:absolute;
+  line-height: 40px; 
+}
+img {
+max-width: 500px;
+position: absolute;
+top: 17%;
+right: 32%;
+opacity: 80%;
+}
