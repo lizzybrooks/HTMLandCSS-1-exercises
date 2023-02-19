@@ -1,0 +1,46 @@
+/* css/05-positioning.css */
+body {
+  background: #5189be;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  /* display: inline-block; */
+}
+
+.first-div {
+  position: relative;
+  color: #624f02;
+  background-color: #e9d06e;
+  width: 90vw;
+  height: 20vh;
+}
+
+.inner-div {
+  position: absolute;
+  color: #0b0240;
+  background-color: #8bc9cf;
+  width: 60%;
+  height: 60%;
+  left: 40%;
+}
+
+.second-div {
+  position: relative;
+  color: #cccccc;
+  background-color: #354dc4;
+  width: 90vw;
+  height: 40vh;
+}
+
+.third-div {
+  position: relative;
+  color: #d9d8d8;
+  background-color: #7863bd;
+  width: 90vw;
+  height: 40vh;
+}
+
