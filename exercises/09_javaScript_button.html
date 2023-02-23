@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Button Click Event Example</title>
+    <script>
+      function changeColor() {
+        document.body.style.backgroundColor = "yellow";
+      }
+      window.addEventListener("load", function() {
+        document.getElementById("myButton").addEventListener("click", changeColor);
+      });
+    </script>
+  </head>
+  <body>
+    <button id="myButton">Click Me</button>
+  </body>
+</html>
