@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Keydown Event Example</title>
+    <script>
+      function changeColor(event) {
+        if (event.key === "c") {
+          document.body.style.backgroundColor = "cyan";
+        } else if (event.key === "m") {
+          document.body.style.backgroundColor = "magenta";
+        }
+      }
+      window.addEventListener("load", function() {
+        document.addEventListener("keydown", changeColor);
+      });
+    </script>
+  </head>
+  <body>
+    Press "c" for cyan, "m" for magenta.
+  </body>
+</html>
