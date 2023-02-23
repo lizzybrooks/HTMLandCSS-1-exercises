@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mouseover Event Example</title>
+    <script>
+      function changeColor(event) {
+        event.target.style.color = "red";
+      }
+      window.addEventListener("load", function() {
+        document.getElementById("myText").addEventListener("mouseover", changeColor);
+      });
+    </script>
+  </head>
+  <body>
+    <p id="myText">Hover over me to change my color.</p>
+  </body>
+</html>
