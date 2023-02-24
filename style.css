@@ -1,55 +1,21 @@
 body {
-  margin: 50px;
-  font-family: 'Inconsolata', monospace;
-  background: rgb(255, 141, 179);
-}
+    background-image: url('/Users/eliehrlich/Desktop/breaking-bad.jpeg');
+    background-size: cover;
+  }
+  
+  h1 {
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-size: 40pt;
+    font-weight: bold;
+  }
+  h2 {
+    image: url('/Users/eliehrlich/Desktop/102677103p-03-01.jpg')
+  }
 
-.container {
-  position: absolute;
-  width: 30%;
-  top: 70%;
-  left: 45%;
-  transform: translate(-70%, -45%);
-}
-
-.toc-container {
-  background: #125428;
-  padding: 50px;
-  line-height: 49px;
-  font-size: 100px;
-  position: relative;
-}
-
-.assign2-container {
-  background: #5eec42;
-  padding: 50px;
-  line-height: 49px;
-  font-size: 100px;
-  position: relative;
-}
-
-.header {
-  text-transform: uppercase;
-  color: rgb(169, 172, 241);
-  height: 40px;
-  margin-bottom: 50px;
-  font-family: 'Kosugi Maru', sans-serif;
-  text-align: center;
-}
-
-ul {
-  margin: 0px;
-}
-
-ul li {
-  list-style-type: decimal-leading-zero;
-}
-
-a, a:visited {
-  color: rgb(20, 59, 2);
-  text-decoration: underline;
-}
-
-a:hover {
-  text-decoration: underline;
-}
+  p {
+    color: rgb(255, 255, 255);
+    font-family: "Times New Roman", serif;
+    font-size: 20pt;
+    margin-bottom: 1em;
+  }
