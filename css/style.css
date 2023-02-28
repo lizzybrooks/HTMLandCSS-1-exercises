@@ -45,3 +45,8 @@ a, a:visited {
 a:hover {
   text-decoration: underline;
 }
+
+.rightcontent {
+  padding: 0 18px;
+  max-height: 0
+  overflow: hidden;
